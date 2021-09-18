@@ -1,0 +1,1496 @@
+fileFormatVersion: 2
+guid: a8c77b4dabe069a4aba5a181b6125cd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -983926628589721140
+    second: Sprite_Sheet_Completa_e_certa.png_0
+  - first:
+      213: -1029130007588776386
+    second: Sprite_Sheet_Completa_e_certa.png_1
+  - first:
+      213: -1052121563786095922
+    second: Sprite_Sheet_Completa_e_certa.png_2
+  - first:
+      213: -2412292564973947754
+    second: Sprite_Sheet_Completa_e_certa.png_3
+  - first:
+      213: -6644839893522113095
+    second: Sprite_Sheet_Completa_e_certa.png_4
+  - first:
+      213: 6039034175978141685
+    second: Sprite_Sheet_Completa_e_certa.png_5
+  - first:
+      213: -6217751728997891430
+    second: Sprite_Sheet_Completa_e_certa.png_6
+  - first:
+      213: -4154457318961408739
+    second: Sprite_Sheet_Completa_e_certa.png_7
+  - first:
+      213: -4104660631725039671
+    second: Sprite_Sheet_Completa_e_certa.png_8
+  - first:
+      213: 7379008559829359065
+    second: Sprite_Sheet_Completa_e_certa.png_9
+  - first:
+      213: -5284231824465334601
+    second: Sprite_Sheet_Completa_e_certa.png_10
+  - first:
+      213: 5474108393476760996
+    second: Sprite_Sheet_Completa_e_certa.png_11
+  - first:
+      213: -6640172131423524410
+    second: Sprite_Sheet_Completa_e_certa.png_12
+  - first:
+      213: -4761348040360513648
+    second: Sprite_Sheet_Completa_e_certa.png_13
+  - first:
+      213: 544351450930740333
+    second: Sprite_Sheet_Completa_e_certa.png_14
+  - first:
+      213: 1975488538870406681
+    second: Sprite_Sheet_Completa_e_certa.png_15
+  - first:
+      213: -5448665812017115402
+    second: Sprite_Sheet_Completa_e_certa.png_16
+  - first:
+      213: -560886265062984986
+    second: Sprite_Sheet_Completa_e_certa.png_17
+  - first:
+      213: -2220078156730739190
+    second: Sprite_Sheet_Completa_e_certa.png_18
+  - first:
+      213: 2653959811567161114
+    second: Sprite_Sheet_Completa_e_certa.png_19
+  - first:
+      213: 4742810880985408501
+    second: Sprite_Sheet_Completa_e_certa.png_20
+  - first:
+      213: -5044430703059616190
+    second: Sprite_Sheet_Completa_e_certa.png_21
+  - first:
+      213: 6381759504175060892
+    second: Sprite_Sheet_Completa_e_certa.png_22
+  - first:
+      213: -2520992830050618273
+    second: Sprite_Sheet_Completa_e_certa.png_23
+  - first:
+      213: -3409511030671119328
+    second: Sprite_Sheet_Completa_e_certa.png_24
+  - first:
+      213: -4506041412956695135
+    second: Sprite_Sheet_Completa_e_certa.png_25
+  - first:
+      213: 7046385464601663155
+    second: Sprite_Sheet_Completa_e_certa.png_26
+  - first:
+      213: 4735381220915477653
+    second: Sprite_Sheet_Completa_e_certa.png_27
+  - first:
+      213: 4077042193632038970
+    second: Sprite_Sheet_Completa_e_certa.png_28
+  - first:
+      213: 3220322164705882238
+    second: Sprite_Sheet_Completa_e_certa.png_29
+  - first:
+      213: 5940052711514587272
+    second: Sprite_Sheet_Completa_e_certa.png_30
+  - first:
+      213: -3285885095662166573
+    second: Sprite_Sheet_Completa_e_certa.png_31
+  - first:
+      213: 6771802752334956716
+    second: Sprite_Sheet_Completa_e_certa.png_32
+  - first:
+      213: 31453345929293483
+    second: Sprite_Sheet_Completa_e_certa.png_33
+  - first:
+      213: -1035896150913312831
+    second: Sprite_Sheet_Completa_e_certa.png_34
+  - first:
+      213: 7164956231709751300
+    second: Sprite_Sheet_Completa_e_certa.png_35
+  - first:
+      213: -6250503031969574907
+    second: Sprite_Sheet_Completa_e_certa.png_36
+  - first:
+      213: 1506024051505954538
+    second: Sprite_Sheet_Completa_e_certa.png_37
+  - first:
+      213: 8312552267024960077
+    second: Sprite_Sheet_Completa_e_certa.png_38
+  - first:
+      213: 6306853718303523163
+    second: Sprite_Sheet_Completa_e_certa.png_39
+  - first:
+      213: 3009883798760249349
+    second: Sprite_Sheet_Completa_e_certa.png_40
+  - first:
+      213: 3641945043553817627
+    second: Sprite_Sheet_Completa_e_certa.png_41
+  - first:
+      213: -547406476058636475
+    second: Sprite_Sheet_Completa_e_certa.png_42
+  - first:
+      213: -6018251232013448474
+    second: Sprite_Sheet_Completa_e_certa.png_43
+  - first:
+      213: 526654902125299907
+    second: Sprite_Sheet_Completa_e_certa.png_44
+  - first:
+      213: 675992855065232755
+    second: Sprite_Sheet_Completa_e_certa.png_45
+  - first:
+      213: 2340022171660456827
+    second: Sprite_Sheet_Completa_e_certa.png_46
+  - first:
+      213: 7132843069372908399
+    second: Sprite_Sheet_Completa_e_certa.png_47
+  - first:
+      213: -8870003445335706973
+    second: Sprite_Sheet_Completa_e_certa.png_48
+  - first:
+      213: -3286710484785620514
+    second: Sprite_Sheet_Completa_e_certa.png_49
+  - first:
+      213: 8501063668238968957
+    second: Sprite_Sheet_Completa_e_certa.png_50
+  - first:
+      213: -4699002795643493621
+    second: Sprite_Sheet_Completa_e_certa.png_51
+  - first:
+      213: -7131102566062898497
+    second: Sprite_Sheet_Completa_e_certa.png_52
+  - first:
+      213: 2152975511282422052
+    second: Sprite_Sheet_Completa_e_certa.png_53
+  - first:
+      213: 4965633039729927342
+    second: Sprite_Sheet_Completa_e_certa.png_54
+  - first:
+      213: -8256014882491737289
+    second: Sprite_Sheet_Completa_e_certa.png_55
+  - first:
+      213: -1272831985039987460
+    second: Sprite_Sheet_Completa_e_certa.png_56
+  - first:
+      213: 1562765871389797320
+    second: Sprite_Sheet_Completa_e_certa.png_57
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 332
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3582
+        width: 244
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9acd1c1f36852f0800000000000000
+      internalID: -983926628589721140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_1
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 3582
+        width: 274
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d9fde5bbc7b1f0800000000000000
+      internalID: -1029130007588776386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_2
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 3582
+        width: 267
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2500a130d1661f0800000000000000
+      internalID: -1052121563786095922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_3
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 3582
+        width: 263
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694796a61b0d58ed0800000000000000
+      internalID: -2412292564973947754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3068
+        width: 435
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd154d9259c8c3a0800000000000000
+      internalID: -6644839893522113095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_5
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3068
+        width: 435
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7fe9d3695fec350800000000000000
+      internalID: 6039034175978141685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_6
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 3068
+        width: 453
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92828bdebb16b9a0800000000000000
+      internalID: -6217751728997891430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_7
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 3068
+        width: 450
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1598c464176856c0800000000000000
+      internalID: -4154457318961408739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_8
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 3068
+        width: 424
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf9f7227e05907c0800000000000000
+      internalID: -4104660631725039671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_9
+      rect:
+        serializedVersion: 2
+        x: 2632
+        y: 3068
+        width: 420
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d912338031876660800000000000000
+      internalID: 7379008559829359065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_10
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 3068
+        width: 342
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beede71723aaa6b0800000000000000
+      internalID: -5284231824465334601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_11
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 3064
+        width: 210
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5aa2fa490f7fb40800000000000000
+      internalID: 5474108393476760996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_12
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 2558
+        width: 409
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c96d0ba0ae59d3a0800000000000000
+      internalID: -6640172131423524410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_13
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 2558
+        width: 386
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f2f4a1f2b4cedb0800000000000000
+      internalID: -4761348040360513648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_14
+      rect:
+        serializedVersion: 2
+        x: 5482
+        y: 3008
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cf1b1b2cced8700800000000000000
+      internalID: 544351450930740333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_15
+      rect:
+        serializedVersion: 2
+        x: 6236
+        y: 2547
+        width: 289
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ed9390c585a6b10800000000000000
+      internalID: 1975488538870406681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2554
+        width: 293
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe87eeef437264b0800000000000000
+      internalID: -5448665812017115402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_17
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 2554
+        width: 367
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e27683e9e45738f0800000000000000
+      internalID: -560886265062984986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_18
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 2558
+        width: 371
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06d57ecda2b031e0800000000000000
+      internalID: -2220078156730739190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_19
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 2551
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f8f982362c4d420800000000000000
+      internalID: 2653959811567161114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_20
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2558
+        width: 401
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f32ef52e59d1d140800000000000000
+      internalID: 4742810880985408501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_21
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 2558
+        width: 353
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ebe0a80059ef9b0800000000000000
+      internalID: -5044430703059616190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_22
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 2554
+        width: 326
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97d3500570909850800000000000000
+      internalID: 6381759504175060892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_23
+      rect:
+        serializedVersion: 2
+        x: 4211
+        y: 2554
+        width: 263
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54b68bb062a30dd0800000000000000
+      internalID: -2520992830050618273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_24
+      rect:
+        serializedVersion: 2
+        x: 4714
+        y: 2558
+        width: 277
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c621f28cbfea0d0800000000000000
+      internalID: -3409511030671119328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_25
+      rect:
+        serializedVersion: 2
+        x: 4852
+        y: 2551
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5548d75335771c0800000000000000
+      internalID: -4506041412956695135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_26
+      rect:
+        serializedVersion: 2
+        x: 5201
+        y: 2551
+        width: 304
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6de082f3ac9c160800000000000000
+      internalID: 7046385464601663155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_27
+      rect:
+        serializedVersion: 2
+        x: 5737
+        y: 2551
+        width: 282
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cf8bc912477b140800000000000000
+      internalID: 4735381220915477653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_28
+      rect:
+        serializedVersion: 2
+        x: 6769
+        y: 2551
+        width: 266
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3097b52640949830800000000000000
+      internalID: 4077042193632038970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_29
+      rect:
+        serializedVersion: 2
+        x: 7136
+        y: 2558
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e707c9162f1e0bc20800000000000000
+      internalID: 3220322164705882238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_30
+      rect:
+        serializedVersion: 2
+        x: 7147
+        y: 2554
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8804ce8287e4f6250800000000000000
+      internalID: 5940052711514587272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2044
+        width: 274
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd5e443ae03662d0800000000000000
+      internalID: -3285885095662166573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_32
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2044
+        width: 318
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca800f589b64afd50800000000000000
+      internalID: 6771802752334956716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_33
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 2044
+        width: 348
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baeec17c6aebf6000800000000000000
+      internalID: 31453345929293483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_34
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2044
+        width: 352
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c71e9c60f1cf91f0800000000000000
+      internalID: -1035896150913312831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_35
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 2044
+        width: 352
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408f74e2bb90f6360800000000000000
+      internalID: 7164956231709751300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1549
+        width: 360
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50093f7eb90c149a0800000000000000
+      internalID: -6250503031969574907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_37
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1534
+        width: 387
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeef43545e876e410800000000000000
+      internalID: 1506024051505954538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_38
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1534
+        width: 251
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a04ecbe3e1c5370800000000000000
+      internalID: 8312552267024960077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_39
+      rect:
+        serializedVersion: 2
+        x: 4219
+        y: 1530
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5145d9aa02768750800000000000000
+      internalID: 6306853718303523163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1020
+        width: 469
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508de403e5145c920800000000000000
+      internalID: 3009883798760249349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_41
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1020
+        width: 349
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b141584a8b9ca8230800000000000000
+      internalID: 3641945043553817627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_42
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 510
+        width: 285
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fc6c6d5b83768f0800000000000000
+      internalID: -547406476058636475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_43
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 506
+        width: 292
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea08caf360ea7ca0800000000000000
+      internalID: -6018251232013448474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_44
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 510
+        width: 322
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c88568d7dd0f4700800000000000000
+      internalID: 526654902125299907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_45
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 510
+        width: 409
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3758ddc8beb916900800000000000000
+      internalID: 675992855065232755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_46
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 510
+        width: 371
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b731c5464cd697020800000000000000
+      internalID: 2340022171660456827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_47
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 510
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63449ceaf2fcf260800000000000000
+      internalID: 7132843069372908399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_48
+      rect:
+        serializedVersion: 2
+        x: 6435
+        y: 540
+        width: 67
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2364c9cda67e480800000000000000
+      internalID: -8870003445335706973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_49
+      rect:
+        serializedVersion: 2
+        x: 6577
+        y: 570
+        width: 72
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91dc25a324362d0800000000000000
+      internalID: -3286710484785620514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_50
+      rect:
+        serializedVersion: 2
+        x: 6401
+        y: 300
+        width: 68
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ec5e9d58d9f570800000000000000
+      internalID: 8501063668238968957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_51
+      rect:
+        serializedVersion: 2
+        x: 6547
+        y: 300
+        width: 72
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b032a1f8ad9c9ceb0800000000000000
+      internalID: -4699002795643493621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_52
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 176
+        width: 71
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2c1f49ffb390d90800000000000000
+      internalID: -7131102566062898497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_53
+      rect:
+        serializedVersion: 2
+        x: 6787
+        y: 323
+        width: 195
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4219a1012d7e0ed10800000000000000
+      internalID: 2152975511282422052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_54
+      rect:
+        serializedVersion: 2
+        x: 7061
+        y: 146
+        width: 68
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4ab0ac0f879e440800000000000000
+      internalID: 4965633039729927342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_55
+      rect:
+        serializedVersion: 2
+        x: 6802
+        y: 116
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bddb4e43ebc6d80800000000000000
+      internalID: -8256014882491737289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_56
+      rect:
+        serializedVersion: 2
+        x: 6772
+        y: 4
+        width: 117
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcafe8ad0ef55ee0800000000000000
+      internalID: -1272831985039987460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Completa_e_certa.png_57
+      rect:
+        serializedVersion: 2
+        x: 6915
+        y: 4
+        width: 116
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbea47b74f00b510800000000000000
+      internalID: 1562765871389797320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
