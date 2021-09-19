@@ -20,6 +20,7 @@ public class ControleSonic : MonoBehaviour
     private int vidaAtual;
     public bool habilidadePisao;
     private float posicaoAnterior;
+    public Vector2 forcapulo;
     Vector3 inicio;
     // Start is called before the first frame update
     void Start()
@@ -96,7 +97,7 @@ public class ControleSonic : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(new Vector2(0, 50f), ForceMode2D.Impulse);
+            rb.AddForce(forcapulo, ForceMode2D.Impulse);
             animator.SetTrigger("PULAR");
             animator.SetBool("NOCHAO", false);
         }

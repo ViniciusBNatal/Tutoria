@@ -59,11 +59,14 @@ public class ControleInimigo : MonoBehaviour
     {
         if (jogador != null)
         {
-            posicao = transform.position + new Vector3(largura * sentido, 0f, 0f);
-            transform.Translate(raio.normalized * Time.deltaTime * velocidade * sentido);
-            transform.localScale = new Vector3(1f * sentido, 1f, 1f);
             RaycastHit2D[] colisao = Physics2D.BoxCastAll(posicao, new Vector2(largura, altura + 1), 0f, new Vector2(sentido, 0), 0f, chaoLayer);
-            if (colisao.Length <= 0)
+            if (colisao.Length > 0)
+            {
+                Vector3 direcao = jogador.transform.position - transform.position;
+                posicao = transform.position + new Vector3(largura * sentido, 0f, 0f);
+                transform.Translate(raio.normalized * Time.deltaTime * velocidade * (direcao.x / Mathf.Abs(direcao.x)));
+                transform.localScale = new Vector3(1f * sentido, 1f, 1f);
+            } else if (colisao.Length == 0)
                 sentido = -sentido;
         }
     }
