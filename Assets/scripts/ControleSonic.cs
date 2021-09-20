@@ -57,7 +57,7 @@ public class ControleSonic : MonoBehaviour
         else
         {
             animator.SetBool("NOCHAO", true);
-            habilidadePisao = false;
+            //habilidadePisao = false;
             animator.SetBool("CAINDO", false);
         }
     }
@@ -95,7 +95,7 @@ public class ControleSonic : MonoBehaviour
     }
     private void Pular()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && animator.GetBool("NOCHAO") == true)
         {
             rb.AddForce(forcapulo, ForceMode2D.Impulse);
             animator.SetTrigger("PULAR");
