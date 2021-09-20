@@ -46,17 +46,17 @@ PrefabInstance:
     - target: {fileID: 9023995139084417784, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139084417784, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087089, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_Name
-      value: inimigo (4)
+      value: inimigo torreta
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087089, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}

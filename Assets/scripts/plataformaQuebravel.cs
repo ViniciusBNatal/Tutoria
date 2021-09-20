@@ -9,7 +9,6 @@ public class plataformaQuebravel : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && collision.gameObject.GetComponent<ControleSonic>().habilidadePisao == true)
         {
-            Debug.Log("a");
             collision.gameObject.GetComponent<ControleSonic>().habilidadePisao = true;
             collision.gameObject.GetComponent<ControleSonic>().animator.SetBool("NOCHAO", false);
             collision.gameObject.GetComponent<ControleSonic>().animator.SetBool("CAINDO", true);

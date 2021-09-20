@@ -22,6 +22,7 @@ public class ControleSonic : MonoBehaviour
     private float posicaoAnterior;
     public Vector2 forcapulo;
     Vector3 inicio;
+    private int pulos = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +60,7 @@ public class ControleSonic : MonoBehaviour
             animator.SetBool("NOCHAO", true);
             //habilidadePisao = false;
             animator.SetBool("CAINDO", false);
+            pulos = 2;
         }
     }
     void OnDrawGizmosSelected()
@@ -95,11 +97,12 @@ public class ControleSonic : MonoBehaviour
     }
     private void Pular()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && animator.GetBool("NOCHAO") == true)
+        if (Input.GetKeyDown(KeyCode.Space) && pulos > 1)
         {
             rb.AddForce(forcapulo, ForceMode2D.Impulse);
             animator.SetTrigger("PULAR");
             animator.SetBool("NOCHAO", false);
+            pulos--;
         }
     }
     public void atualizaBarraDeVida(int valor)
@@ -129,9 +132,13 @@ public class ControleSonic : MonoBehaviour
             }
             if (vidaAtual <= 0)//morreu
             {
-                transform.position = respawn.position;
-                atualizaBarraDeVida(vidaMaxima);
+                morrer();
             }
         }
+    }
+    public void morrer()
+    {
+        transform.position = respawn.position;
+        atualizaBarraDeVida(vidaMaxima);
     }
 }

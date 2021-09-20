@@ -4,39 +4,54 @@ using UnityEngine;
 
 public class ControleInimigo : MonoBehaviour
 {
-    public bool disparar;
-    public bool movimentar;
-    public bool boss;
-    public bool simplificarDisparo;
-    public int dano = 1;
-    public float velocidadeProjetil;
-    public float taxaDeDisparo;
+    [Header("Valores gerais")]
+    public int dano;
     public float velocidade;
     public float taxaDeAtaqueMelee;
-    public LayerMask chaoLayer;
-    private Transform jogador;
-    public GameObject projetil;
-    public Transform pontoDeDisparo;
-    private Animator animator;
-    private Vector3 raio = new Vector3(10f, 0f, 0f);
     float largura;
     float altura;
-    float sentido = 1;
-    public Vector2 direcaoProjetil;
-    private Vector3 posicao;
     private float podeAtacar;
+    [Header("Componentes")]
+    public LayerMask chaoLayer;
+    public GameObject projetil;
+    public Transform pontoDeDisparo;
+    private Transform jogador;
+    private Rigidbody2D rb;
+    private Vector3 direcaoJogador;
+    private Animator animator;
+    private Vector3 raio = new Vector3(10f, 0f, 0f);
+    [Header("Características")]
+    public bool disparar;
+    public bool movimentacaoTerrestre;
+    public bool movimentacaoAerea;
+    public bool boss;
+    public bool simplificarDisparo;
+    private Vector3 posicao;
+    [Header("Variáveis de disparo")]
+    public float velocidadeProjetil;
+    public float taxaDeDisparo;
+    public Vector2 direcaoProjetil;
     private float podeDisparar;
-    private bool detectado;
-    float sentidoBoss = 1;
-    int vida;
+    [Header("Variáveis de voador")]
+    public float tempoDeEspera;
+    public float duracaoDash;
+    public float forcaDash;
+    private float pararDash;
+    private bool bloquearMovimentacao, esperando, duranteDash;
+    private float pacing;
+    [Header("BOSS")]
     public float forcaRepulsaoJogador;
     public int vidaMax;
+    float sentidoBoss = 1;
+    int vida;
+    private Vector3 direcao;
     // Start is called before the first frame update
     void Start()
     {
         largura = GetComponent<SpriteRenderer>().bounds.size.x;
         altura = GetComponent<SpriteRenderer>().bounds.size.y;
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
         vida = vidaMax;
     }
 
@@ -44,12 +59,21 @@ public class ControleInimigo : MonoBehaviour
     private void Update()
     {
         if (disparar)
+        {
             atirar();
+        }
     }
     void FixedUpdate()
     {
-        if (movimentar)
-        andar();
+        direcaoJogador = jogador.transform.position - transform.position;
+        if (movimentacaoTerrestre)
+        {
+            andar();
+        } 
+        if (movimentacaoAerea)
+        {
+            voar();
+        }
     }
     void OnDrawGizmosSelected()
     {
@@ -61,7 +85,7 @@ public class ControleInimigo : MonoBehaviour
         GameObject objeto = collision.gameObject;
         algoEncostou(objeto);
     }
-    public void andar()
+    private void andar()
     {
         if (boss)
         {
@@ -78,8 +102,7 @@ public class ControleInimigo : MonoBehaviour
         {
             if (jogador != null)
             {
-                Vector3 direcao = jogador.transform.position - transform.position;
-                float sentido = (direcao.x / Mathf.Abs(direcao.x));
+                float sentido = (direcaoJogador.x / Mathf.Abs(direcaoJogador.x));
                 posicao = transform.position + new Vector3(largura * sentido, 0f, 0f);
                 RaycastHit2D[] colisao = Physics2D.BoxCastAll(posicao, new Vector2(largura, altura + 1), 0f, new Vector2(sentido, 0f), 0, chaoLayer);
                 if (colisao.Length > 0)
@@ -90,26 +113,60 @@ public class ControleInimigo : MonoBehaviour
             }
         }
     }
-    public void atirar()
+    private void voar()
+    {
+        if (jogador != null)
+        {
+            direcaoJogador = jogador.transform.position - transform.position;
+            if (!bloquearMovimentacao)
+                rb.velocity = new Vector3(direcaoJogador.x, direcaoJogador.y, 0f) * velocidade;
+            ataqueVoador();
+        }
+    }
+    private void atirar()
     {
         if (Time.time > podeDisparar + taxaDeDisparo && jogador != null)
         {
-            pontoDeDisparo.localPosition = new Vector3(direcaoProjetil.x, direcaoProjetil.y, 0f);
+            Vector3 direcaoProjetil = jogador.transform.position - pontoDeDisparo.position;
             GameObject bala = Instantiate(projetil, pontoDeDisparo);
-            Vector3 direcao = jogador.transform.position - pontoDeDisparo.position;
+            bala.GetComponent<bala>().dano = dano;
             if (simplificarDisparo)
             {
-                bala.GetComponent<Rigidbody2D>().velocity = new Vector2(direcaoProjetil.x, direcaoProjetil.y) * velocidadeProjetil;
-                Debug.Log(bala.GetComponent<Rigidbody2D>().velocity);
+                pontoDeDisparo.localPosition = new Vector3(this.direcaoProjetil.x, this.direcaoProjetil.y, 0f);
+                bala.GetComponent<Rigidbody2D>().velocity = new Vector2(this.direcaoProjetil.x, this.direcaoProjetil.y) * velocidadeProjetil;
                 podeDisparar = Time.time;
             }
             else
             {
-                float sentido = (direcao.x / Mathf.Abs(direcao.x));
+                float sentido = (direcaoProjetil.x / Mathf.Abs(direcaoProjetil.x));
                 transform.localScale = new Vector3(sentido * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-                bala.GetComponent<Rigidbody2D>().velocity = new Vector3(direcao.x, direcao.y, 0f) * velocidadeProjetil;
+                bala.GetComponent<Rigidbody2D>().velocity = new Vector3(direcaoProjetil.x, direcaoProjetil.y, 0f) * velocidadeProjetil;
                 podeDisparar = Time.time;
             }
+        }
+    }
+    private void ataqueVoador()
+    {
+        if (Time.time > podeAtacar + taxaDeAtaqueMelee && bloquearMovimentacao == false)
+        {
+            bloquearMovimentacao = true;
+            rb.velocity = Vector3.zero;
+            esperando = true;
+            pacing = Time.time;
+        }
+        if (Time.time > pacing + tempoDeEspera && bloquearMovimentacao == true && duranteDash == false)
+        {
+            Vector3 ultimaPosicaoJogador = direcaoJogador;
+            rb.velocity = ultimaPosicaoJogador * forcaDash;
+            esperando = false;
+            duranteDash = true;
+            pararDash = Time.time;
+        }
+        if (Time.time > pararDash + duracaoDash && esperando == false && bloquearMovimentacao == true)
+        {
+            bloquearMovimentacao = false;
+            duranteDash = false;
+            podeAtacar = Time.time;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -130,24 +187,26 @@ public class ControleInimigo : MonoBehaviour
                 animator.SetBool("ATACANDO", false);
         }
     }
-    public void algoEncostou(GameObject obj)
+    private void algoEncostou(GameObject obj)
     {
         if (obj.tag == "Player")
         {
+            ControleSonic jogadorScript = obj.GetComponent<ControleSonic>();
+            Rigidbody2D rbJogador = obj.GetComponent<Rigidbody2D>();
             if (obj.GetComponent<ControleSonic>().habilidadePisao == true)
             {
                 if (boss)
                 {
                     vida--;
-                    obj.GetComponent<ControleSonic>().habilidadePisao = false;
-                    obj.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, 0f);
-                    obj.GetComponent<Rigidbody2D>().velocity = new Vector2(0f, forcaRepulsaoJogador);
+                    jogadorScript.habilidadePisao = false;
+                    rbJogador.velocity = new Vector2(0f, 0f);
+                    rbJogador.velocity = new Vector2(0f, forcaRepulsaoJogador);
                     if (vida <= 0)
                         Destroy(this.gameObject);
                 }
                 else
                 {
-                    obj.GetComponent<ControleSonic>().habilidadePisao = false;
+                    jogadorScript.habilidadePisao = false;
                     Destroy(this.gameObject);
                 }
             }
@@ -155,7 +214,7 @@ public class ControleInimigo : MonoBehaviour
             {
                 if (Time.time > taxaDeAtaqueMelee + podeAtacar)
                 {
-                    obj.GetComponent<ControleSonic>().atualizaBarraDeVida(dano);
+                    jogadorScript.atualizaBarraDeVida(dano);
                     podeAtacar = Time.time;
                 }
             }

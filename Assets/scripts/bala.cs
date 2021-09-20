@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bala : MonoBehaviour
 {
-    public int dano = 1;
+    public int dano;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag != "plataforma" && collision.gameObject.tag != "Inimigo")
