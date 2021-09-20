@@ -12455,7 +12455,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1180453502
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26393,7 +26393,7 @@ PrefabInstance:
     - target: {fileID: 4574292025257159515, guid: acaf8c308286cbe4090ffe1f1e10de75,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4574292025257159519, guid: acaf8c308286cbe4090ffe1f1e10de75,
         type: 3}
@@ -26578,6 +26578,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6378811939191871576, guid: 57a266ff8b3238b4fa12e78f8f63210c,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.95294124
+      objectReference: {fileID: 0}
+    - target: {fileID: 6378811939191871576, guid: 57a266ff8b3238b4fa12e78f8f63210c,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.93725497
+      objectReference: {fileID: 0}
+    - target: {fileID: 6378811939191871576, guid: 57a266ff8b3238b4fa12e78f8f63210c,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.93725497
+      objectReference: {fileID: 0}
     - target: {fileID: 6378811939191871655, guid: 57a266ff8b3238b4fa12e78f8f63210c,
         type: 3}
       propertyPath: m_LocalPosition.y
