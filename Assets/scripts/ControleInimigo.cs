@@ -60,7 +60,6 @@ public class ControleInimigo : MonoBehaviour
     {
         GameObject objeto = collision.gameObject;
         algoEncostou(objeto);
-        
     }
     public void andar()
     {
@@ -95,13 +94,13 @@ public class ControleInimigo : MonoBehaviour
     {
         if (Time.time > podeDisparar + taxaDeDisparo && jogador != null)
         {
+            pontoDeDisparo.localPosition = new Vector3(direcaoProjetil.x, direcaoProjetil.y, 0f);
             GameObject bala = Instantiate(projetil, pontoDeDisparo);
             Vector3 direcao = jogador.transform.position - pontoDeDisparo.position;
             if (simplificarDisparo)
             {
-                float sentido = (direcaoProjetil.x / Mathf.Abs(direcaoProjetil.x));
-                transform.localScale = new Vector3(-sentido * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
                 bala.GetComponent<Rigidbody2D>().velocity = new Vector2(direcaoProjetil.x, direcaoProjetil.y) * velocidadeProjetil;
+                Debug.Log(bala.GetComponent<Rigidbody2D>().velocity);
                 podeDisparar = Time.time;
             }
             else
