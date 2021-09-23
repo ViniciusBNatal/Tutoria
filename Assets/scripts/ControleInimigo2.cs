@@ -34,6 +34,7 @@ public class ControleInimigo2 : MonoBehaviour
     public float taxaDeDisparo;
     public Vector2 direcaoProjetilFixo;
     private Vector3 direcaoProjetil;
+    private bool atirou = true;
     [Header("Variáveis de voador")]
     public float tempoParado;
     public float duracaoDash;
@@ -116,13 +117,12 @@ public class ControleInimigo2 : MonoBehaviour
     }
     private void atirar()
     {
-        if (jogador != null)
-            direcaoProjetil = jogador.position - pontoDeDisparo.position;
+        direcaoProjetil = jogador.position - pontoDeDisparo.position;
         projetilInst = Instantiate(projetil, pontoDeDisparo);
         projetilInst.GetComponent<bala>().dano = dano;
         if (simplificarDisparo)
         {
-            transform.localScale = new Vector3 (direcaoProjetilFixo.x * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(direcaoProjetilFixo.x * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             projetilInst.GetComponent<bala>().veloc = new Vector3(direcaoProjetilFixo.x, direcaoProjetilFixo.y, 0f) * velocidadeProjetil;
         }
         else
@@ -227,11 +227,13 @@ public class ControleInimigo2 : MonoBehaviour
     }
     IEnumerator Disparos()
     {
-        while(jogador != null)
+        while(jogador != null && atirou)
         {
+            atirou = false;
             yield return new WaitForSeconds(taxaDeDisparo);
             if (jogador != null)
                 atirar();
+            atirou = true;
         }
     }
     IEnumerator Voando()
