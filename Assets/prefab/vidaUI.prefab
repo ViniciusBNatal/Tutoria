@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2893110787256292478}
   - component: {fileID: 1532378287525700549}
   - component: {fileID: 1902689550650421702}
+  - component: {fileID: 6582930484553262918}
   m_Layer: 5
   m_Name: vidaUI
   m_TagString: Untagged
@@ -64,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2848947124509303264, guid: 1ff544a0b627f2247b5d1b259db80b00,
+  m_Sprite: {fileID: 4075669697441526004, guid: 4f048f6a80a05424193f758a326a9e29,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -75,3 +76,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &6582930484553262918
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655113666275912983}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5530eb04a58c33a4f9a3948072458cbf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

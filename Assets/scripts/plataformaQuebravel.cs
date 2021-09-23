@@ -7,12 +7,24 @@ public class plataformaQuebravel : MonoBehaviour
     public GameObject plataforma;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && collision.gameObject.GetComponent<ControleSonic>().habilidadePisao == true)
+        if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<ControleSonic>().habilidadePisao = true;
-            collision.gameObject.GetComponent<ControleSonic>().animator.SetBool("NOCHAO", false);
-            collision.gameObject.GetComponent<ControleSonic>().animator.SetBool("CAINDO", true);
-            Destroy(plataforma);
+            if (collision.gameObject.GetComponent<CopiaJogador>() == null && collision.gameObject.GetComponent<ControleSonic>().habilidadePisao == true)
+            {
+                ControleSonic boneco = collision.gameObject.GetComponent<ControleSonic>();
+                boneco.habilidadePisao = true;
+                boneco.animator.SetBool("NOCHAO", false);
+                boneco.animator.SetBool("CAINDO", true);
+                Destroy(plataforma);
+            } 
+            else if (collision.gameObject.GetComponent<ControleSonic>() == null && collision.gameObject.GetComponent<CopiaJogador>().habilidadePisao == true)
+            {
+                CopiaJogador boneco = collision.gameObject.GetComponent<CopiaJogador>();
+                boneco.habilidadePisao = true;
+                boneco.animator.SetBool("NOCHAO", false);
+                boneco.animator.SetBool("CAINDO", true);
+                Destroy(plataforma);
+            }
         }
     }
 }

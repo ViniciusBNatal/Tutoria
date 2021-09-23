@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!61 &7778425948439357621
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4132401505961612944}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 1.3353659}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2.042683, y: 2.6707318}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.12, y: 5.74}
+  m_EdgeRadius: 0
 --- !u!1001 &4927666431309213665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12,10 +38,35 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 843e22174981d694fa7962e22fc071ff, type: 2}
+    - target: {fileID: 2172726611640794795, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172726611640794795, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172726611640794795, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.042683
+      objectReference: {fileID: 0}
+    - target: {fileID: 2172726611640794795, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.6707318
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209222732235599911, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+        type: 3}
+      propertyPath: movimentacaoTerrestre
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087089, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_Name
-      value: inimigo (6)
+      value: inimigo terrestre
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087089, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
@@ -36,6 +87,21 @@ PrefabInstance:
     - target: {fileID: 9023995139117087094, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: movimentar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9023995139117087094, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+        type: 3}
+      propertyPath: taxaDeDisparo
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9023995139117087094, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+        type: 3}
+      propertyPath: velocidadeProjetil
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9023995139117087094, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+        type: 3}
+      propertyPath: movimentacaoTerrestre
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087095, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
@@ -133,5 +199,13 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9023995139117087099, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd, type: 3}
+    - {fileID: 2172726611640794795, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd, type: 3}
+--- !u!1 &4132401505961612944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9023995139117087089, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
+    type: 3}
+  m_PrefabInstance: {fileID: 4927666431309213665}
+  m_PrefabAsset: {fileID: 0}

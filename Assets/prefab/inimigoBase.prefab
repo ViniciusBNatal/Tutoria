@@ -42,11 +42,11 @@ GameObject:
   - component: {fileID: 9023995139117087093}
   - component: {fileID: 9023995139117087092}
   - component: {fileID: 9023995139117087095}
-  - component: {fileID: 9023995139117087094}
-  - component: {fileID: 9023995139117087099}
   - component: {fileID: 822713408132047336}
+  - component: {fileID: 2172726611640794795}
+  - component: {fileID: 2209222732235599911}
   m_Layer: 0
-  m_Name: inimigo
+  m_Name: inimigoBase
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -156,7 +156,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.44, y: 1.68}
+    oldSize: {x: 1.33, y: 1.59}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -165,47 +165,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4238774, y: 1.6546555}
   m_EdgeRadius: 0
---- !u!114 &9023995139117087094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9023995139117087089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 205284c250adc0142ae90e3447a631ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disparar: 0
-  movimentar: 0
-  dano: -1
-  velocidadeProjetil: 2
-  taxaDeDisparo: 2
-  velocidade: 2
-  taxaDeAtaqueMelee: 3
-  chaoLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  projetil: {fileID: 2947903728470353026, guid: 44bf7c20b367abe428f195426ac198d1,
-    type: 3}
-  pontoDeDisparo: {fileID: 9023995139084417784}
---- !u!58 &9023995139117087099
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9023995139117087089}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 4
 --- !u!95 &822713408132047336
 Animator:
   serializedVersion: 3
@@ -225,3 +184,64 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &2172726611640794795
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9023995139117087089}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.33, y: 1.59}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.46, y: 2.84}
+  m_EdgeRadius: 0
+--- !u!114 &2209222732235599911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9023995139117087089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2c0bdde1aa79a740b292a486a9a3297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dano: -1
+  velocidade: 2
+  taxaDeAtaqueMelee: 3
+  chaoLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  projetil: {fileID: 2947903728470353026, guid: 44bf7c20b367abe428f195426ac198d1,
+    type: 3}
+  pontoDeDisparo: {fileID: 9023995139084417784}
+  disparar: 0
+  movimentacaoTerrestre: 0
+  movimentacaoAerea: 0
+  boss: 0
+  simplificarDisparo: 0
+  velocidadeProjetil: 3
+  taxaDeDisparo: 1
+  direcaoProjetilFixo: {x: 0, y: 0}
+  tempoParado: 0
+  duracaoDash: 0
+  forcaDash: 0
+  intervaloEntreAtaques: 0
+  forcaRepulsaoJogador: 0
+  vidaMax: 0

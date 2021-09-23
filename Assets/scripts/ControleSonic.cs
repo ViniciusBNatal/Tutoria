@@ -22,7 +22,8 @@ public class ControleSonic : MonoBehaviour
     private float posicaoAnterior;
     public Vector2 forcapulo;
     Vector3 inicio;
-    private int pulos = 2;
+    private int pulos;
+    private int pulosMax = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +31,7 @@ public class ControleSonic : MonoBehaviour
         animator = GetComponent<Animator>();
         inicio = gameObject.transform.position;
         vidaAtual = vidaMaxima;
+        pulos = pulosMax;
 
         for (int i = 0; i < vidaMaxima; i++)
         {
@@ -46,19 +48,19 @@ public class ControleSonic : MonoBehaviour
         Stomp();
         movimentoHorizontal();
         Pular();
-        if (transform.position.y < posicaoAnterior)
-            animator.SetBool("CAINDO", true);
-        posicaoAnterior = transform.position.y;
     }
     private void FixedUpdate()
     {
-       Collider2D[] colisoes = Physics2D.OverlapCircleAll(transform.position - diferenca, RAIO, layerMascara);
+        if (transform.position.y < posicaoAnterior)
+            animator.SetBool("CAINDO", true);
+        posicaoAnterior = transform.position.y;
+        Collider2D[] colisoes = Physics2D.OverlapCircleAll(transform.position - diferenca, RAIO, layerMascara);
        if (colisoes.Length == 0)
            animator.SetBool("NOCHAO", false);
         else
         {
             animator.SetBool("NOCHAO", true);
-            //habilidadePisao = false;
+            habilidadePisao = false;
             animator.SetBool("CAINDO", false);
             pulos = 2;
         }
@@ -138,7 +140,14 @@ public class ControleSonic : MonoBehaviour
     }
     public void morrer()
     {
-        transform.position = respawn.position;
+        if (respawn != null)
+        {
+            transform.position = respawn.position;
+        }
+        else
+        {
+            transform.position = inicio;
+        }
         atualizaBarraDeVida(vidaMaxima);
     }
 }

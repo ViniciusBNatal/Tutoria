@@ -120,10 +120,10 @@ TextureImporter:
       name: Boss_Spritesheet_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 2
-        width: 144
-        height: 168
+        x: 42
+        y: 209
+        width: 133
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: Boss_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 169
-        width: 144
-        height: 170
+        x: 240
+        y: 209
+        width: 134
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: Boss_Spritesheet_2
       rect:
         serializedVersion: 2
-        x: 228
-        y: 2
-        width: 143
-        height: 171
+        x: 438
+        y: 209
+        width: 134
+        height: 163
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: Boss_Spritesheet_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 169
-        width: 143
-        height: 171
+        x: 636
+        y: 210
+        width: 134
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Boss_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 440
-        y: 3
-        width: 143
-        height: 172
+        x: 834
+        y: 209
+        width: 134
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: Boss_Spritesheet_5
       rect:
         serializedVersion: 2
-        x: 441
-        y: 169
-        width: 142
-        height: 173
+        x: 49
+        y: 19
+        width: 133
+        height: 156
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: Boss_Spritesheet_6
       rect:
         serializedVersion: 2
-        x: 652
-        y: 2
-        width: 144
-        height: 170
+        x: 247
+        y: 19
+        width: 134
+        height: 158
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: Boss_Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 653
-        y: 169
-        width: 142
-        height: 172
+        x: 445
+        y: 19
+        width: 133
+        height: 161
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: Boss_Spritesheet_8
       rect:
         serializedVersion: 2
-        x: 865
-        y: 2
-        width: 143
-        height: 168
+        x: 643
+        y: 18
+        width: 134
+        height: 159
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +309,10 @@ TextureImporter:
       name: Boss_Spritesheet_9
       rect:
         serializedVersion: 2
-        x: 865
-        y: 169
-        width: 143
-        height: 170
+        x: 841
+        y: 19
+        width: 134
+        height: 156
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

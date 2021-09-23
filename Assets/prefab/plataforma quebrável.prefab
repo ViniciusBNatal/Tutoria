@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 311224437469467372}
   - component: {fileID: 311224437469467371}
-  - component: {fileID: 311224437469467370}
+  - component: {fileID: 2049233966511586071}
   m_Layer: 8
   m_Name: "plataforma quebr\xE1vel"
   m_TagString: Untagged
@@ -72,19 +72,19 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3173200299031659498, guid: 9426668c58e6c7542bc84d54637daf71,
+  m_Sprite: {fileID: 8635224632276615130, guid: 84369bd2042e8114eaa7bede7428aa6a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 9.88, y: 3.3}
+  m_Size: {x: 0.85, y: 0.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &311224437469467370
+--- !u!61 &2049233966511586071
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,14 +101,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 1.03}
-    newSize: {x: 9.88, y: 3.3}
+    oldSize: {x: 3.148148, y: 1.037037}
+    newSize: {x: 0.85, y: 0.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 1}
+  m_Size: {x: 3.1354303, y: 0.9655172}
   m_EdgeRadius: 0
 --- !u!1 &3380108681603479709
 GameObject:
@@ -120,7 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6933922210401925825}
   - component: {fileID: 1082557029696586583}
-  - component: {fileID: 6654384571256726724}
+  - component: {fileID: 3004618167258455258}
   m_Layer: 0
   m_Name: box collider
   m_TagString: Untagged
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plataforma: {fileID: 311224437469467369}
---- !u!61 &6654384571256726724
+--- !u!61 &3004618167258455258
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,7 +168,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.021078944, y: 0.00000023841858}
+  m_Offset: {x: 0.002555132, y: 0.0055252314}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -179,5 +179,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0235746, y: 1.0000005}
+  m_Size: {x: 3.1614842, y: 1.0552509}
   m_EdgeRadius: 0

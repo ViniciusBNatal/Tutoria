@@ -5,20 +5,14 @@ using UnityEngine;
 public class inimigoBorracha : MonoBehaviour
 {
     public Vector3 diferenca;
-    public LayerMask layerMascara;
+    public LayerMask ChaoLayer;
     public float RAIO;
-    private bool podePular;
     public float forcaPulo;
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-    }
-
-    private void FixedUpdate()
-    {
-       
     }
     private void pular()
     {
@@ -32,7 +26,7 @@ public class inimigoBorracha : MonoBehaviour
         }
         else
         {
-            Collider2D[] colisoes = Physics2D.OverlapCircleAll(transform.position - diferenca, RAIO, layerMascara);
+            Collider2D[] colisoes = Physics2D.OverlapCircleAll(transform.position - diferenca, RAIO, ChaoLayer);
             if (colisoes.Length > 0)
                 pular();
         }
@@ -42,4 +36,5 @@ public class inimigoBorracha : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position - diferenca, RAIO);
     }
+    
 }
