@@ -1,0 +1,614 @@
+fileFormatVersion: 2
+guid: 84369bd2042e8114eaa7bede7428aa6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3079345476918215627
+    second: Spritesheet_tiles_2_0
+  - first:
+      213: 5683688783067227965
+    second: Spritesheet_tiles_2_1
+  - first:
+      213: -7190454043480626718
+    second: Spritesheet_tiles_2_2
+  - first:
+      213: 1361106802584900901
+    second: Spritesheet_tiles_2_3
+  - first:
+      213: -1428702783066539515
+    second: Spritesheet_tiles_2_4
+  - first:
+      213: -247430868740567402
+    second: Spritesheet_tiles_2_5
+  - first:
+      213: -2237770016053031744
+    second: Spritesheet_tiles_2_6
+  - first:
+      213: -5325806974991279261
+    second: Spritesheet_tiles_2_7
+  - first:
+      213: -3828533024559214123
+    second: Spritesheet_tiles_2_8
+  - first:
+      213: -9026276729773042568
+    second: Spritesheet_tiles_2_9
+  - first:
+      213: 7306315335144916602
+    second: Spritesheet_tiles_2_10
+  - first:
+      213: 2851469675119170305
+    second: Spritesheet_tiles_2_11
+  - first:
+      213: -5691149755237196865
+    second: Spritesheet_tiles_2_12
+  - first:
+      213: 8503598905327690439
+    second: Spritesheet_tiles_2_13
+  - first:
+      213: 3983826196953678531
+    second: Spritesheet_tiles_2_14
+  - first:
+      213: 664351712245623208
+    second: Spritesheet_tiles_2_15
+  - first:
+      213: -8432948488437942602
+    second: Spritesheet_tiles_2_16
+  - first:
+      213: 8635224632276615130
+    second: Spritesheet_tiles_2_17
+  - first:
+      213: -3091526052473782754
+    second: Spritesheet_tiles_0
+  - first:
+      213: 6077010589975338104
+    second: Spritesheet_tiles_1
+  - first:
+      213: 4104636823933735821
+    second: Spritesheet_tiles_6
+  - first:
+      213: 6042330610793301694
+    second: Spritesheet_tiles_7
+  - first:
+      213: 5790611855112366744
+    second: Spritesheet_tiles_42
+  - first:
+      213: -1586713097201354676
+    second: Spritesheet_tiles_46
+  - first:
+      213: 437160808106139994
+    second: Spritesheet_tiles_47
+  - first:
+      213: -655246000715292824
+    second: Spritesheet_tiles_48
+  - first:
+      213: -3314901140111905264
+    second: Spritesheet_tiles_49
+  - first:
+      213: 7007167018183514156
+    second: Spritesheet_tiles_50
+  - first:
+      213: -3191798606379122880
+    second: Spritesheet_tiles_51
+  - first:
+      213: 8546878976173220805
+    second: Spritesheet_tiles_76
+  - first:
+      213: -37198322966565100
+    second: Spritesheet_tiles_79
+  - first:
+      213: 4689164698009814781
+    second: Spritesheet_tiles_80
+  - first:
+      213: 4895621914465255238
+    second: Spritesheet_tiles_81
+  - first:
+      213: -5560395850808010075
+    second: Spritesheet_tiles_83
+  - first:
+      213: 8320498478987655546
+    second: Spritesheet_tiles_97
+  - first:
+      213: 9212911110575971925
+    second: Spritesheet_tiles_99
+  - first:
+      213: 6454360039265179336
+    second: Spritesheet_tiles_105
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spritesheet_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1705
+        width: 145
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e3f645f61b815d0800000000000000
+      internalID: -3091526052473782754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1707
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c54c72fe0e55450800000000000000
+      internalID: 6077010589975338104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1707
+        width: 142
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83de8ea17996f830800000000000000
+      internalID: 4104636823933735821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1707
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6cdc74dabaad350800000000000000
+      internalID: 6042330610793301694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1300
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a63206dc26c5050800000000000000
+      internalID: 5790611855112366744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1298
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c487ad848dcdaf9e0800000000000000
+      internalID: -1586713097201354676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1300
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51a3e4507b111600800000000000000
+      internalID: 437160808106139994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1300
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f9ed6eb3918e6f0800000000000000
+      internalID: -655246000715292824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 891
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ea716e9fa1ff1d0800000000000000
+      internalID: -3314901140111905264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 891
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2859a807457e3160800000000000000
+      internalID: 7007167018183514156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 899
+        width: 153
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f7f20141474b3d0800000000000000
+      internalID: -3191798606379122880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_76
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 895
+        width: 145
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c32f01452d9c9670800000000000000
+      internalID: 8546878976173220805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_79
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 489
+        width: 75
+        height: 139
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f66558258db7ff0800000000000000
+      internalID: -37198322966565100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_80
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 484
+        width: 74
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df64d26d272431140800000000000000
+      internalID: 4689164698009814781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_81
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 487
+        width: 67
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fb15e613eb0f340800000000000000
+      internalID: 4895621914465255238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_83
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 484
+        width: 290
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa58061f6185d2b0800000000000000
+      internalID: -5560395850808010075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_97
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 77
+        width: 435
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79bc326849587370800000000000000
+      internalID: 8320498478987655546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_99
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 79
+        width: 144
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e512dc7d5dadf70800000000000000
+      internalID: 9212911110575971925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spritesheet_tiles_105
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 77
+        width: 435
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c690e0524e729950800000000000000
+      internalID: 6454360039265179336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
