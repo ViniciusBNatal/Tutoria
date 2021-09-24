@@ -62,7 +62,7 @@ public class ControleSonic : MonoBehaviour
             animator.SetBool("NOCHAO", true);
             habilidadePisao = false;
             animator.SetBool("CAINDO", false);
-            pulos = 2;
+            pulos = pulosMax;
         }
     }
     void OnDrawGizmosSelected()
@@ -99,7 +99,7 @@ public class ControleSonic : MonoBehaviour
     }
     private void Pular()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && pulos > 1)
+        if (Input.GetKeyDown(KeyCode.Space) && pulos >= 1)
         {
             rb.AddForce(forcapulo, ForceMode2D.Impulse);
             animator.SetTrigger("PULAR");
