@@ -24,6 +24,10 @@ public class inimigoBorracha : MonoBehaviour
         {
             collision.gameObject.GetComponent<ControleSonic>().morrer();
         }
+        else if (collision.gameObject.tag == "Inimigo")
+        {
+            Destroy(collision.gameObject);
+        }
         else
         {
             Collider2D[] colisoes = Physics2D.OverlapCircleAll(transform.position - diferenca, RAIO, ChaoLayer);

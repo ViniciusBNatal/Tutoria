@@ -28,6 +28,7 @@ public class ControleInimigo2 : MonoBehaviour
     public bool movimentacaoAerea;
     public bool boss;
     public bool simplificarDisparo;
+    public bool Cair;
     private Vector3 posicao;
     [Header("Variáveis de disparo")]
     public float velocidadeProjetil;
@@ -40,7 +41,7 @@ public class ControleInimigo2 : MonoBehaviour
     public float duracaoDash;
     public float forcaDash;
     public float intervaloEntreAtaques;
-    private bool bloquearMovimentacao;
+    private bool bloquearMovimentacao = false;
     [Header("BOSS")]
     public float forcaRepulsaoJogador;
     public int vidaMax;
@@ -70,8 +71,8 @@ public class ControleInimigo2 : MonoBehaviour
                 {
                     transform.Translate(raio.normalized * Time.deltaTime * velocidade * sentidoBoss);
                 }
-                else
-                {
+                else if (!boss && !bloquearMovimentacao)
+                {                    
                     transform.Translate(raio.normalized * velocidade * sentidoMovimento * Time.deltaTime);
                 }
             }
@@ -108,10 +109,18 @@ public class ControleInimigo2 : MonoBehaviour
         {
             sentidoMovimento = (direcaoJogador.x / Mathf.Abs(direcaoJogador.x));
             posicao = transform.position + new Vector3(largura * sentidoMovimento, altura / 2 - .5f, 0f);
+            transform.localScale = new Vector3(sentidoMovimento * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             RaycastHit2D[] colisao = Physics2D.BoxCastAll(posicao, new Vector2(largura, altura + .2f), 0f, new Vector2(sentidoMovimento, 0f), 0, chaoLayer);
-            if (colisao.Length > 0)
+            if (!Cair)
             {
-                transform.localScale = new Vector3(sentidoMovimento * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                if (colisao.Length > 0)
+                {
+                    bloquearMovimentacao = false;
+                }
+                else
+                {
+                    bloquearMovimentacao = true;
+                }
             }
         }
     }

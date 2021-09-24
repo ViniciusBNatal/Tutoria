@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320367224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.89, y: 11.03, z: -10}
+  m_LocalPosition: {x: 1.9999993, y: -3.67, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6378811940972843518}
@@ -240,7 +240,7 @@ MonoBehaviour:
   layerMascara:
     serializedVersion: 2
     m_Bits: 256
-  diferenca: {x: 0, y: 0.51, z: 0}
+  diferenca: {x: 0, y: 0.81, z: 0}
   forcaStomp: 50
   barraDeVida: {fileID: 0}
   iconeVida: {fileID: 1902689550650421702, guid: c9da6ba215d3c154d8327dab13bdb6ba,

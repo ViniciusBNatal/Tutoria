@@ -5,25 +5,28 @@ using UnityEngine.UI;
 
 public class ControleSonic : MonoBehaviour
 {
+    [Header("Componentes")]
     public LayerMask layerMascara;//quais layers vai ter verificação de colisão
     public Vector3 diferenca;
-    public float forcaStomp;
     public GameObject barraDeVida;
     public Image iconeVida;
-    public int vidaMaxima;
     public Transform respawn;
-    public float velocidade;
-    private List<Image> Vidas = new List<Image>();
-    private Rigidbody2D rb;
     public Animator animator;
-    private const float RAIO = 0.05f;
-    private int vidaAtual;
+    private Rigidbody2D rb;
+    private List<Image> Vidas = new List<Image>();
+    [Header("Valores numéricos")]
+    public float velocidade;
+    public float forcaStomp;
+    public int vidaMaxima;
     public bool habilidadePisao;
-    private float posicaoAnterior;
     public Vector2 forcapulo;
+    public int pulosMax = 1;
+    private const float TamanhoCaixaX = .8f;
+    private const float TamanhoCaixaY = .2f;
+    private int vidaAtual;
+    private float posicaoAnterior;
     Vector3 inicio;
     private int pulos;
-    private int pulosMax = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,7 @@ public class ControleSonic : MonoBehaviour
         inicio = gameObject.transform.position;
         vidaAtual = vidaMaxima;
         pulos = pulosMax;
+        StartCoroutine("verificarChao");
 
         for (int i = 0; i < vidaMaxima; i++)
         {
@@ -52,23 +56,18 @@ public class ControleSonic : MonoBehaviour
     private void FixedUpdate()
     {
         if (transform.position.y < posicaoAnterior)
-            animator.SetBool("CAINDO", true);
-        posicaoAnterior = transform.position.y;
-        Collider2D[] colisoes = Physics2D.OverlapCircleAll(transform.position - diferenca, RAIO, layerMascara);
-       if (colisoes.Length == 0)
-           animator.SetBool("NOCHAO", false);
-        else
         {
-            animator.SetBool("NOCHAO", true);
-            habilidadePisao = false;
-            animator.SetBool("CAINDO", false);
-            pulos = pulosMax;
+            if (!animator.GetBool("CAINDO"))
+                pulos -= 1;
+            animator.SetBool("CAINDO", true);
         }
+        posicaoAnterior = transform.position.y;
+        
     }
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position - diferenca, RAIO);
+        Gizmos.DrawWireCube(transform.position - diferenca, new Vector2(TamanhoCaixaX, TamanhoCaixaY));
     }
     private void Stomp()
     {
@@ -99,12 +98,13 @@ public class ControleSonic : MonoBehaviour
     }
     private void Pular()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && pulos >= 1)
+        if (Input.GetKeyDown(KeyCode.Space) && pulos > 0)
         {
+            pulos--;
+            Debug.Log(pulos);
             rb.AddForce(forcapulo, ForceMode2D.Impulse);
             animator.SetTrigger("PULAR");
             animator.SetBool("NOCHAO", false);
-            pulos--;
         }
     }
     public void atualizaBarraDeVida(int valor)
@@ -149,5 +149,22 @@ public class ControleSonic : MonoBehaviour
             transform.position = inicio;
         }
         atualizaBarraDeVida(vidaMaxima);
+    }
+    IEnumerator verificarChao()
+    {
+        while (true)
+        {
+            Collider2D[] colisoes = Physics2D.OverlapBoxAll(transform.position - diferenca, new Vector2(TamanhoCaixaX, TamanhoCaixaY), 0f, layerMascara);
+            if (colisoes.Length == 0)
+                animator.SetBool("NOCHAO", false);
+            else
+            {
+                animator.SetBool("NOCHAO", true);
+                habilidadePisao = false;
+                animator.SetBool("CAINDO", false);
+                pulos = pulosMax;
+            }
+            yield return new WaitForSeconds(.1f);
+        }
     }
 }
