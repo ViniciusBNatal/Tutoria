@@ -59,7 +59,7 @@ public class ControleSonic : MonoBehaviour
     {
         if (transform.position.y < posicaoAnterior)
         {
-            if (!animator.GetBool("CAINDO"))
+            if (pulos == pulosMax)
                 pulos -= 1;
             animator.SetBool("CAINDO", true);
         }
