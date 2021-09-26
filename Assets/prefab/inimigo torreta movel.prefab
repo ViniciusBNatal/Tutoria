@@ -25,12 +25,12 @@ PrefabInstance:
     - target: {fileID: 2172726611640794795, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.1
+      value: 2.0666666
       objectReference: {fileID: 0}
     - target: {fileID: 2172726611640794795, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 3.74
+      value: 2.4933333
       objectReference: {fileID: 0}
     - target: {fileID: 2209222732235599911, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
@@ -71,32 +71,32 @@ PrefabInstance:
     - target: {fileID: 9023995139117087095, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_Size.x
-      value: 3.25
+      value: 2.092451
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087095, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_Size.y
-      value: 3.86
+      value: 2.5095258
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087095, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0
+      value: -0.0000009536743
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087095, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_Offset.y
-      value: 0
+      value: 0.00000011920929
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087095, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.1
+      value: 2.0666666
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087095, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 3.74
+      value: 2.4933333
       objectReference: {fileID: 0}
     - target: {fileID: 9023995139117087098, guid: 971bc8fcc2fcfec4bb6545fc5602ecdd,
         type: 3}
