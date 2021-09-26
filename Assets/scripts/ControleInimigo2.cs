@@ -36,6 +36,7 @@ public class ControleInimigo2 : MonoBehaviour
     public Vector2 direcaoProjetilFixo;
     private Vector3 direcaoProjetil;
     private bool atirou = true;
+    private float primeiroDisparo;
     [Header("Variáveis de voador")]
     public float tempoParado;
     public float duracaoDash;
@@ -128,6 +129,7 @@ public class ControleInimigo2 : MonoBehaviour
     }
     private void atirar()
     {
+        primeiroDisparo = 0;
         direcaoProjetil = jogador.position - pontoDeDisparo.position;
         projetilInst = Instantiate(projetil, pontoDeDisparo);
         projetilInst.GetComponent<bala>().dano = dano;
@@ -170,6 +172,7 @@ public class ControleInimigo2 : MonoBehaviour
             }
             if (disparar)
             {
+                primeiroDisparo = taxaDeDisparo - 1;
                 StartCoroutine("Disparos");
             }
             if (movimentacaoAerea)
@@ -216,7 +219,7 @@ public class ControleInimigo2 : MonoBehaviour
                 {
                     if (Time.time > taxaDeAtaqueMelee + podeAtacar)
                     {
-                        jogadorScript.atualizaBarraDeVida(dano);
+                        jogadorScript.atualizaBarraDeVida(dano, 1);
                         podeAtacar = Time.time;
                     }
                 }
@@ -241,7 +244,7 @@ public class ControleInimigo2 : MonoBehaviour
         while(jogador != null && atirou)
         {
             atirou = false;
-            yield return new WaitForSeconds(taxaDeDisparo);
+            yield return new WaitForSeconds(taxaDeDisparo - primeiroDisparo);
             if (jogador != null)
                 atirar();
             atirou = true;

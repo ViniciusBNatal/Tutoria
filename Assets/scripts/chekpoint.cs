@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class precipicio : MonoBehaviour
+public class chekpoint : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            collision.gameObject.GetComponent<ControleSonic>().morrer(1);
+            collision.GetComponent<ControleSonic>().pontosRespawn[1] = this.transform;
         }
     }
 }

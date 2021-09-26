@@ -9,7 +9,7 @@ public class Cura : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<ControleSonic>().atualizaBarraDeVida(vidaRecuperada);
+            collision.gameObject.GetComponent<ControleSonic>().atualizaBarraDeVida(vidaRecuperada, 0);
             Destroy(this.gameObject);
         }
     }

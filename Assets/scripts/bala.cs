@@ -16,7 +16,7 @@ public class bala : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<ControleSonic>().atualizaBarraDeVida(dano);
+            collision.gameObject.GetComponent<ControleSonic>().atualizaBarraDeVida(dano, 1);
             Destroy(this.gameObject);
         } 
         else if(collision.gameObject.tag != "plataforma" && collision.gameObject.tag != "Inimigo")

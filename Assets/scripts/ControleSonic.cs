@@ -12,7 +12,7 @@ public class ControleSonic : MonoBehaviour
     public GameObject assaEsquerda;
     public GameObject assaDireita;
     public Image iconeVida;
-    public Transform respawn;
+    public List<Transform> pontosRespawn = new List<Transform>();
     public Animator animator;
     private Rigidbody2D rb;
     private List<Image> Vidas = new List<Image>();
@@ -59,7 +59,7 @@ public class ControleSonic : MonoBehaviour
     {
         if (transform.position.y < posicaoAnterior)
         {
-            if (!animator.GetBool("CAINDO"))
+            if (pulos == pulosMax)
                 pulos -= 1;
             animator.SetBool("CAINDO", true);
         }
@@ -109,7 +109,7 @@ public class ControleSonic : MonoBehaviour
             animator.SetBool("NOCHAO", false);
         }
     }
-    public void atualizaBarraDeVida(int valor)
+    public void atualizaBarraDeVida(int valor, int chekpoint)
     {
         if (valor > 0)//ganhou vida
         {
@@ -136,21 +136,21 @@ public class ControleSonic : MonoBehaviour
             }
             if (vidaAtual <= 0)//morreu
             {
-                morrer();
+                morrer(chekpoint);
             }
         }
     }
-    public void morrer()
+    public void morrer(int chekpoint)
     {
-        if (respawn != null)
+        if (pontosRespawn[chekpoint] != null)
         {
-            transform.position = respawn.position;
+            transform.position = pontosRespawn[chekpoint].position;
         }
         else
         {
             transform.position = inicio;
         }
-        atualizaBarraDeVida(vidaMaxima);
+        atualizaBarraDeVida(vidaMaxima, chekpoint);
     }
     IEnumerator verificarChao()
     {
