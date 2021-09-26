@@ -219,7 +219,7 @@ public class ControleInimigo2 : MonoBehaviour
                 {
                     if (Time.time > taxaDeAtaqueMelee + podeAtacar)
                     {
-                        jogadorScript.atualizaBarraDeVida(dano, 1);
+                        jogadorScript.atualizaBarraDeVida(dano, 0);
                         podeAtacar = Time.time;
                     }
                 }

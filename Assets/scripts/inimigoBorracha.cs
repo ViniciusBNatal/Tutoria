@@ -22,7 +22,7 @@ public class inimigoBorracha : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            collision.gameObject.GetComponent<ControleSonic>().morrer(1);
+            collision.gameObject.GetComponent<ControleSonic>().morrer(0);
         }
         else if (collision.gameObject.tag == "Inimigo")
         {
