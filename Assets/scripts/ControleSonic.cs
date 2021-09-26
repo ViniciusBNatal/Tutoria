@@ -9,6 +9,8 @@ public class ControleSonic : MonoBehaviour
     public LayerMask layerMascara;//quais layers vai ter verificação de colisão
     public Vector3 diferenca;
     public GameObject barraDeVida;
+    public GameObject assaEsquerda;
+    public GameObject assaDireita;
     public Image iconeVida;
     public Transform respawn;
     public Animator animator;

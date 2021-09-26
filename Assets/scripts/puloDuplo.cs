@@ -8,7 +8,10 @@ public class puloDuplo : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.GetComponent<ControleSonic>().pulosMax++;
+            ControleSonic script = collision.GetComponent<ControleSonic>();
+            script.pulosMax++;
+            script.assaDireita.SetActive(true);
+            script.assaEsquerda.SetActive(true);
             Destroy(this.gameObject);
         }
     }

@@ -79,14 +79,16 @@ public class ControleInimigo2 : MonoBehaviour
             if (movimentacaoAerea && !bloquearMovimentacao)
             {
                 direcaoJogador = jogador.transform.position - transform.position;
+                sentidoMovimento = (direcaoJogador.x / Mathf.Abs(direcaoJogador.x));
                 rb.velocity = new Vector3(direcaoJogador.x, direcaoJogador.y, 0f) * velocidade;
+                transform.localScale = new Vector3(sentidoMovimento * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             }
         }
     }
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireCube(posicao, new Vector2(largura/2, altura/2));
+        Gizmos.DrawWireCube(posicao, new Vector2(largura, altura + .2f));
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -108,7 +110,7 @@ public class ControleInimigo2 : MonoBehaviour
         else
         {
             sentidoMovimento = (direcaoJogador.x / Mathf.Abs(direcaoJogador.x));
-            posicao = transform.position + new Vector3(largura * sentidoMovimento, altura / 2 - .5f, 0f);
+            posicao = transform.position + new Vector3(largura * sentidoMovimento, 0f, 0f);
             transform.localScale = new Vector3(sentidoMovimento * Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
             RaycastHit2D[] colisao = Physics2D.BoxCastAll(posicao, new Vector2(largura, altura + .2f), 0f, new Vector2(sentidoMovimento, 0f), 0, chaoLayer);
             if (!Cair)
